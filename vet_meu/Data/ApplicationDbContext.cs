@@ -6,6 +6,7 @@ using System.Text;
 
 namespace vet_meu.Data
 {
+
     public class ApplicationDbContext : IdentityDbContext
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)

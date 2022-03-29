@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+    <Nullable>disable</Nullable>
     <UserSecretsId>aspnet-vet_meu-136C6B5E-7B13-4186-A28F-B21C105C9EFE</UserSecretsId>
   </PropertyGroup>
 
