@@ -44,10 +44,16 @@ namespace Vets.Models
         [StringLength(1, ErrorMessage = "O {0} só aceita um caráter")]
         [RegularExpression("[fFmM]", ErrorMessage = "No campo {0} só se aceita as letras F ou M.")]
         public string Sexo { get; set; }
+        /// <summary>
+        /// Email
+        /// </summary>
+        [EmailAddress(ErrorMessage = "introduza um Email correto, por favor")]
+        public string Email { get; set; }
 
         /// <summary>
         /// lista dos animais de que o dono é dono
         /// </summary>
+
 
         public ICollection<Animais> ListaAnimais { get; set; }
 
