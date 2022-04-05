@@ -7,9 +7,9 @@ using Vets.Models;
 
 namespace vet_meu.Data
 {
-    //esta classe funciona como a base do nosso projeto
+
     /// <summary>
-    /// 
+    /// esta classe funciona como a base do nosso projeto
     /// </summary>
     public class ApplicationDbContext : IdentityDbContext
     {
